@@ -1,11 +1,11 @@
 {
   "status": "PASS",
   "stage": "complete",
-  "catalog_sha256": "a3a284737f94ef8c0a4cb198dfcb2328a90349517517decf3e74dfccbce42922",
+  "catalog_sha256": "d190f935c1d2e4a71f4b7c46a8a4d454d46960fde0ad65f30b2e6a093bef58df",
   "environment": {
     "python": "3.13.16",
-    "numpy": "2.1.3",
-    "numba": "0.61.2",
+    "numpy": "2.5.3",
+    "numba": "0.68.0",
     "workers": 2
   },
   "scope": "Finite checks only; analytic proof and published orbit count are separate.",
@@ -1172,7 +1172,7 @@
           240
         ]
       },
-      "seconds": 284.4446745769999
+      "seconds": 112.78622936700003
     },
     "2": {
       "complete": true,
@@ -2336,11 +2336,11 @@
           240
         ]
       },
-      "seconds": 1703.195407767
+      "seconds": 199.474367582
     }
   },
   "per_class_agreement": true,
-  "total_seconds": 2007.995651314,
+  "total_seconds": 326.612760257,
   "elementary_checks": {
     "witness_walsh_max": 28,
     "witness_nonlinearity": 242,
@@ -3524,7 +3524,7 @@
     ]
   },
   "enumeration_seconds": [
-    284.4446745769999,
-    1703.195407767
+    112.78622936700003,
+    199.474367582
   ]
 }
